@@ -1,0 +1,4 @@
+.env.all
+.env.local
+.env.secrets
+.env.secrets.enc

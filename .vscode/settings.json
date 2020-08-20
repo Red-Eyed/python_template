@@ -1,0 +1,46 @@
+{
+  "[python]": {
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.defaultFormatter": "charliermarsh.ruff",
+    "editor.formatOnSave": true
+  },
+  "editor.inlayHints.enabled": "on",
+  "files.associations": {
+    "*.json": "jsonc"
+  },
+  "files.exclude": {
+    "**/__pycache__": true,
+    "**/.DS_Store": true,
+    "**/.git": true,
+    "**/.hg": true,
+    "**/.ruff_cache": true,
+    "**/.svn": true,
+    "**/.venv": true,
+    "**/CVS": true,
+    "**/Thumbs.db": true,
+    "submodules/**": true
+  },
+  "git.ignoredRepositories": [
+    "${workspaceFolder}/submodules/ConfigFiles",
+  ],
+  "git.ignoreSubmodules": true,
+  "jupyter.notebookFileRoot": "${workspaceFolder}/notebooks",
+  "python.analysis.autoImportCompletions": true,
+  "python.analysis.completeFunctionParens": true,
+  "python.analysis.diagnosticMode": "openFilesOnly",
+  "python.analysis.exclude": [
+    ".venv/**",
+    "work_dir/**",
+    "**/__pycache__",
+    ".git",
+  ],
+  "python.analysis.importFormat": "absolute",
+  "python.analysis.indexing": true,
+  "python.analysis.logLevel": "Information",
+  "python.analysis.typeCheckingMode": "off",
+  "python.analysis.userFileIndexingLimit": 10000,
+  "python.defaultInterpreterPath": "${workspaceFolder}/.venv/bin/python3",
+  "python.pyrefly.disableLanguageServices": true,
+  "python.pyrefly.displayTypeErrors": "force-on",
+  "python.terminal.activateEnvironment": true
+}
